@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="Frame_Test Assign">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="testscripts12.NestedFrame_Test"></class>
+<!--            <class name="testscripts12.Frame_Test"></class>-->
+<!--            <class name="testscripts12.FormsPage_Test"></class>-->
+<!--            <class name="testscripts12.HomePage_test"/>-->
+<!--            <class name="testscripts12.WidgetsPage_Test"></class>-->
+<!--            <class name="testscripts12.WindowHandle_Test"></class>-->
+        </classes>
+    </test>
+</suite>
