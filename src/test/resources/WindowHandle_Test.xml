@@ -4,7 +4,7 @@
     <test verbose="2"  name="Window Handle Assign">
         <parameter name="browserName" value="chrome"></parameter>
         <classes>
-            <class name="testscripts12.WindowHandle_Test"></class>
+<!--            <class name="testscripts12.WindowHandle_Test"></class>-->
         </classes>
     </test>
 </suite>

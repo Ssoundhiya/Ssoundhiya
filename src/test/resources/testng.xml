@@ -5,7 +5,7 @@
         <parameter name="browserName" value="chrome"></parameter>
         <classes>
 <!--            <class name="testscripts12.LoginPageTest"/>-->
-            <class name="testscripts12.HomePage_test"/>
+<!--            <class name="testscripts12.HomePage_test"/>-->
         </classes>
     </test>
 </suite>

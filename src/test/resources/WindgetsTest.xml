@@ -5,7 +5,7 @@
     <test verbose="2" name="Widgets_Page Test Assign">
         <parameter name="browserName" value="chrome"></parameter>
         <classes>
-            <class name="testscripts12.WidgetsPage_Test"></class>
+<!--            <class name="testscripts12.WidgetsPage_Test"></class>-->
         </classes>
     </test>
 </suite>

@@ -56,7 +56,7 @@ public class NestedFrame_PageObject extends PageActions {
 
     public void gettextChildF(){
         switchToFrame(childFrameId);
-        System.out.println("Parent Text:" +childFText.getText());
+        System.out.println("Child Text:" +childFText.getText());
     }
 
 

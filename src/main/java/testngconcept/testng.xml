@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/new clone/src/main/java/com/matrix/shailendra/testngconcept">
+        <classes>
+            <class name="com.matrix.shailendra.testngconcept.TestLogin">
+                <methods>
+                    <include name="testLogin1"/>
+                    <include name="testLogin2"/>
+                    <include name="testLogin3"/>
+                </methods>
+            </class>
+            <class name="com.matrix.shailendra.testngconcept.TestRegister">
+                <methods>
+                    <include name="testRegister1"/>
+                    <include name="testRegister2"/>
+                    <include name="testRegister3"/>
+                    <include name="logout"/>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

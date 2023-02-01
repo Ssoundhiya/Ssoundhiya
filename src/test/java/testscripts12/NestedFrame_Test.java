@@ -22,7 +22,7 @@ public class NestedFrame_Test extends BaseClass {
         nestedFrame_pageObject.getElementText();
         nestedFrame_pageObject.gettextChildF();
     }
-    @AfterTest
+    //@AfterTest
     public void tearDown(){
         closeDriver();
     }
